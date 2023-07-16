@@ -63,7 +63,7 @@ const getNumbers = () => {
             break;
         }
     }
-    console.log(NUMS);
+    return NUMS;
 }
 //takes in an array itterates through it and verfies that the elements are 
 //numbers
