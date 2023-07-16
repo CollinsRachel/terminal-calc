@@ -39,14 +39,21 @@ const whichOp = () => {
 
 //take in two numbers and push them to an array
 //call verifNums
-const getNumbers = (num1, num2) => {
+const nums = [];
+
+const getNumbers = () => {
 
 }
 //takes in an array itterates through it and verfies that the elements are 
 //numbers
-const verifNums = (Array) => {
-
+const verifNums = (num) => {
+    let isANum = null; 
+    if(!isNaN(num)) {
+        isANum = true;
+    } else {
+        isANum = false;
+    }
+    return isANum; 
 }
 
 whichOp();
- 
