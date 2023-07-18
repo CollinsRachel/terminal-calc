@@ -19,6 +19,7 @@ const whichOp = () => {
     if (opChoice === DIVIDE || opChoice === ADD || opChoice === SUB || opChoice === MULT) {
         return opChoice;
     } else {
+        console.log("This is not a valid operation");
         whichOp();
     }
 }
@@ -45,8 +46,8 @@ const getNumbers = () => {
                 NUMS[1] = (num2);
             } else {
                 console.log(INVALID);
+                !NUMS[1];
             }
-            break;
         }
     }
     return NUMS;
